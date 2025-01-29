@@ -1,14 +1,61 @@
 /* appling google font over the website  */
 body{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 350;
+    font-family: Georgia, serif;
+    font-weight: 400;
 }
 /* styling menu icon */
+li a{
+    text-align: center;
+
+}
+#btn-2:hover{
+    background-color: #033795;
+}
+#btn-2{
+    background-color: #577ae4;
+    padding: 18px;
+    border: none;
+    border-radius: 28px;
+    margin: 10px;
+}
+#navbarNav{
+    background-color: #f186ac;
+
+}
+.btn-1:hover{
+    background-color: #ae7aef;
+}
+.btn-1{
+    background-color: #8310f1;
+    padding: 17px;
+    border-radius: 30px;
+    margin: 10px;
+    border: none;
+    color: white;
+}
+#text-muted{
+    color: #e85f90;
+    font-family: "Agency FB", serif;
+    font-size: 25px;
+}
+.col-10{
+    background-color: #e7e7ef;
+}
+.nav-link{
+    font-family: Arial, serif;
+    font-size: 20px;
+
+}
+
+ul{
+    width: 100%;
+    background-color:wheat;
+}
 .nav-menu{
     border: 2px solid black;
     background-color:wheat;
     font-size: 1.5rem;
-    color: #67430a;
+    color: #933558;
     box-shadow: 2px;
 }
 /* styling navbar links  */
@@ -17,7 +64,7 @@ body{
     position: relative;
 }
 .navbar-nav a:hover{
-    color: #4482f1;
+    color: #3a6e06;
 }
 .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -45,7 +92,7 @@ body{
 }
 /* styling home section starts */
 .home{
-    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
+    background: linear-gradient(33deg, rgb(231, 231, 239) 0%, rgb(105, 223, 189) 100%);
     padding: 30px 0px 10px 0px;
 }
 .home h2{
@@ -98,8 +145,31 @@ body{
 .home img{
     animation: floatimg 4s ease-in-out infinite;
 }
+#blog{
+    background-color: #ae7aef;
+}
+#about{
+    background-color: #f186ac;
+}
+#testimonial{
+    background-color: #3f396d;
+}
+#btn-3{
+    background-color: #e8246a;
+    color: white;
+    padding: 25px;
+    margin: 18px;
+    border: none;
+    border-radius: 25px;
+}
+#btn-3:hover{
+    background-color: #f186ac;
+}
+#portfolio{
+    background-color: #d2d5d6;
+}
 
-@keyframes floatimg {
+@keyframes floating {
     0%{
         transform: translateX(0);
     }
